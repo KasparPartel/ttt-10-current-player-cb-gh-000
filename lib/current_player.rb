@@ -4,6 +4,7 @@ def turn_count(board)
   board.each do |el|
     if el == ("X" || "O")
       counter += 1
+      puts "This is the value #{el}"
     end
   end
 end
