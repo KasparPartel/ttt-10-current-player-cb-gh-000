@@ -4,7 +4,5 @@ def turn_count(board)
   board.each do |el|
     if el == ('X' || 'O')
       counter += 1
-    else
-      counter = 0
     end
 end
