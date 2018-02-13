@@ -4,12 +4,9 @@ def turn_count(board)
   board.each do |el|
     if (el == "X" || el == "O")
       counter += 1
-      puts "This is the value #{el} and counter value #{counter}"
     end
   end
 end
-
-turn_count(["O", " ", " ", " ", "X", " ", " ", " ", "X"])
 
 def current_player(board)
   if turn_count(board) == 0
