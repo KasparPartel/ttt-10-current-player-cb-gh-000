@@ -9,6 +9,8 @@ def turn_count(board)
   end
 end
 
+turn_count["O", " ", " ", " ", "X", " ", " ", " ", "X"])
+
 def current_player(board)
   if turn_count(board) == 0
     return 'X'
